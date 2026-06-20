@@ -34,14 +34,26 @@ import discord_webhook
 ## Quick Example
 
 ``` gleam
+// A simple example of sending a text message to Discord via webhook.
+
 import discord_webhook
+import gleam/io
 
 pub fn main() {
+  // Create a new webhook with your Discord webhook URL
   let webhook = discord_webhook.new("YOUR_WEBHOOK_URL")
 
-  discord_webhook.send(webhook, "Hello from discord_webhook!")
+  // Create a simple message with text content
+  let msg = discord_webhook.message("Hello from Gleam library `discord_webhook`!")
+
+  // Send the message and handle the result
+  case discord_webhook.send(webhook, msg) {
+    Ok(Nil) -> io.println("✓ Message sent successfully!")
+    Error(err) -> io.println("✗ Error: " <> err)
+  }
 }
 ```
+*Note*: This will be updated soon with the stable version v1.0.0 release.
 
 ------------------------------------------------------------------------
 
