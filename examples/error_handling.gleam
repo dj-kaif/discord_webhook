@@ -6,8 +6,9 @@
 //// - Discord API returning an unexpected status code
 ////
 //// To run this example:
-//// 1. You can test with an invalid URL to see error handling
-//// 2. Run: gleam run -m examples/error_handling
+//// 1. Copy and save this file
+//// 2. You can test with an invalid URL to see error handling
+//// 3. Run: gleam run -m error_handling
 
 import discord_webhook
 import gleam/io

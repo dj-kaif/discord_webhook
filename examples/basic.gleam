@@ -1,8 +1,9 @@
 //// A simple example of sending a text message to Discord via webhook.
 ////
 //// To run this example:
-//// 1. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
-//// 2. Run: gleam run -m examples/basic
+//// 1. Copy and save this file
+//// 2. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
+//// 3. Run: gleam run -m basic
 
 import discord_webhook
 import gleam/io

@@ -3,8 +3,9 @@
 //// You can build complex messages by chaining text and embeds together.
 ////
 //// To run this example:
-//// 1. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
-//// 2. Run: gleam run -m examples/multiple
+//// 1. Copy and save this file
+//// 2. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
+//// 3. Run: gleam run -m examples/multiple
 
 import discord_webhook
 import gleam/io

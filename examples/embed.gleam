@@ -3,8 +3,9 @@
 //// Embeds are rich formatted messages with titles, descriptions, colors, and fields.
 ////
 //// To run this example:
-//// 1. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
-//// 2. Run: gleam run -m examples/embed
+//// 1. Copy and save this file
+//// 2. Replace "YOUR_WEBHOOK_URL" with your actual Discord webhook URL
+//// 3. Run: gleam run -m embed
 
 import discord_webhook
 import gleam/io
